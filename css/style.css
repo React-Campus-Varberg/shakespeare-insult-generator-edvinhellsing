@@ -3,12 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 body {
-   font-family: 'Open Sans', Arial, Helvetica, sans-serif, 'IM Fell English SC', serif;
+   font-family: 'Open Sans', Arial, Helvetica;
    background-color: #fff;
    margin: 2rem;
    line-height: 2;
  }
- 
+
+h1 {
+   font-family: 'IM Fell English SC', 'Open Sans', Arial, Helvetica, sans-serif, serif;
+   font-size: 200%;
+}
 html {
    font-size: 100%;
  }
