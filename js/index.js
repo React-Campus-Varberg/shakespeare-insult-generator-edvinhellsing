@@ -48,14 +48,14 @@ class App extends React.Component {
                <h1>{this.props.title}</h1>
             </section>
             <section>
+               <button className="btn btn-insults" onClick={this.insultGenerator}>Generate Insult</button>
+            </section>
+            <section>
                <ul>
                   {this.state.items.map((item, index) => {                     
                      return <InsultItem insult = { item.insult } play = { item.play } />;
                   })}
                </ul>
-            </section>
-            <section>
-               <button className="btn btn-insults" onClick={this.insultGenerator}>Generate Insult</button>
             </section>
          </article>
       )

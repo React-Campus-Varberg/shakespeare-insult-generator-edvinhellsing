@@ -7,21 +7,37 @@ body {
    background-color: #fff;
    margin: 2rem;
    line-height: 2;
- }
+}
 
 h1 {
    font-family: 'IM Fell English SC', 'Open Sans', Arial, Helvetica, sans-serif, serif;
    font-size: 200%;
+   margin: 0.8rem 0;
 }
+
 html {
    font-size: 100%;
- }
+}
 
 .image {
    width: 100px;
 }
 
-.insult-list {
+ul {
    list-style-type: none;
    padding-inline-start: 0px;
+}
+
+.btn-insults {
+   margin: 0.4rem 0 0.8rem 0;
+   background-color: rgb(82, 197, 159);
+   color: rgb(19, 18, 18);
+   border: none;
+   border-radius: 0.5rem;
+   padding: 0.7rem 1.4rem;
+}
+
+.btn-insults:hover {
+   background-color: rgb(58, 187, 144);
+   color: rgb(48, 47, 47);
 }
